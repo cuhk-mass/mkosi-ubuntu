@@ -1,0 +1,8 @@
+#!/bin/bash
+
+dpkg --configure -a
+dracut -f
+update-grub
+
+update-alternatives --set editor /usr/bin/nvim
+
