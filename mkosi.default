@@ -18,10 +18,12 @@ Packages=neovim,curl,ssh,dracut,pciutils
 Autologin=yes
 
 [Validation]
-Password=ubuntu
+#Password=ubuntu
 
 [Host]
 QemuHeadless=yes
 QemuSmp=24
 QemuMem=64G
+NetworkVeth=yes
+Ssh=yes
 
