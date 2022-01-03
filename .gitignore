@@ -1,2 +1,4 @@
-.mkosi-*/
+.mkosi-*
 *.cache/*
+*.qcow2*
+
